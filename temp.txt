@@ -1,0 +1,172 @@
+=======================================================
+Before i can start, do you like a Colorful life? [y/n]
+=======================================================
+y
+
+
+
+
+             88P'888'Y88         888                          
+             P'  888  'Y  ,e e,  888 ee                       
+                 888     d88 88b 888 88b                      
+                 888     888   , 888 888                      
+                 888      "YeeP" 888 888                      
+ 
+ ad88888ba                           88  88888888ba           
+d8"     "8b                          ""  88      "8b    ,d    
+Y8,                                      88      ,8P    88    
+`Y8aaaaa,     ,adPPYba,  8b,dPPYba,  88  88aaaaaa8P'  MM88MMM 
+  `"""""8b,  a8"     ""  88P'   "Y8  88  88""""""8b,    88    
+`8b      8b  8b          88          88  88       8b    88    
+Y8a     a8P  "8a,   ,aa  88          88  88      a8P    88,   
+ "Y88888P"    `"Ybbd8"'  88          88  88888888P"     "Y888 
+
+
+ ~#~#~#~#~#~#~#~#~#~#~ By Arvind7352 @XDA #~#~#~#~#~#~#~#~#~#~ 
+
+
+
+=======================================================
+===================[*] MAIN MENU [*]===================
+=======================================================
+
+
+         Select the Action you want to perform         
+
+
+1 .......................Sync........................ 1
+2 .....................Pre-Build..................... 2
+3 .......................Build....................... 3
+
+
+4 .......................EXIT........................ 4
+=======================================================
+
+
+1
+=======================================================
+
+
+Which ROM are you trying to build?
+Choose among these (Number Selection)
+
+1. AICP 
+2. AOKP 
+3. AOSP-RRO 
+4. AOSP-CAF 
+5. CyanogenMod 
+6. DirtyUnicorns 
+7. OmniROM 
+8. OrionOS 
+9. PAC-ROM 
+10. Resurrection Remix 
+11. GZR Tesla 
+12. TipsyOS 
+13. GZR Validus 
+14. XenonHD by Team Horizon 
+15. Xperia Open Source Project aka XOSP 
+16. SlimRoms 
+
+=======================================================
+
+
+
+16
+You have chosen -> SlimRoms
+
+
+Since Branches may live or die at any moment, specify the Branch you're going to sync
+mm6.0
+
+
+Let's sync it!
+
+
+Number of Threads for Sync?
+
+
+1
+
+
+Force Sync needed? [y/n]
+
+
+y
+
+
+Need some Silence in teh Terminal? [y/n]
+
+
+y
+
+
+Any Source you have already synced? If yes, then say YES and Press ENTER
+
+
+YES
+
+
+Provide me the Synced Source's Location from / 
+home/arvind/tipm
+
+
+Name your Build Directory
+slim
+=========================================================
+
+
+Let's Initialize teh ROM Repo
+
+
+Get https://gerrit.googlesource.com/git-repo/clone.bundle
+Get https://gerrit.googlesource.com/git-repo
+remote: Finding sources: 100% (15/15)
+remote: Total 15 (delta 1), reused 15 (delta 1)
+Unpacking objects: 100% (15/15), done.
+From https://gerrit.googlesource.com/git-repo
+   79fba68..8b39fb4  master     -> origin/master
+Get https://github.com/SlimRoms/platform_manifest.git
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+curl: (22) The requested URL returned error: 404 Not Found
+Server does not provide clone.bundle; ignoring.
+remote: Counting objects: 1470, done.
+remote: Total 1470 (delta 0), reused 0 (delta 0), pack-reused 1470
+Receiving objects: 100% (1470/1470), 531.58 KiB | 117.00 KiB/s, done.
+Resolving deltas: 100% (513/513), done.
+From https://github.com/SlimRoms/platform_manifest
+ * [new branch]      jb         -> origin/jb
+ * [new branch]      jb4.2      -> origin/jb4.2
+ * [new branch]      jb4.3      -> origin/jb4.3
+ * [new branch]      kk4.4      -> origin/kk4.4
+ * [new branch]      kk4.4-caf  -> origin/kk4.4-caf
+ * [new branch]      kk4.4-sdk  -> origin/kk4.4-sdk
+ * [new branch]      lp5.0      -> origin/lp5.0
+ * [new branch]      lp5.0-caf  -> origin/lp5.0-caf
+ * [new branch]      lp5.1      -> origin/lp5.1
+ * [new branch]      lp5.1staging -> origin/lp5.1staging
+ * [new branch]      mm6.0      -> origin/mm6.0
+ * [new branch]      pusher     -> origin/pusher
+ * [new branch]      staging/lp5.1 -> origin/staging/lp5.1
+ * [new branch]      staging/mm6.0 -> origin/staging/mm6.0
+ * [new tag]         jb4.2      -> jb4.2
+
+Your identity is: a7r3 <arvindultimate7352@gmail.com>
+If you want to change this, please re-run 'repo init' with --config-name
+
+repo has been initialized in /home/arvind/Desktop/scribt/slim
+
+
+Repo Init'ed
+
+
+=========================================================
+
+
+Now Create a "local_manifests.xml" file and add your Device, Kernel, Vendor and other Device-Specific Sources. Press "ENTER" After it's Done
+
+
+
+Let's Sync!
+
